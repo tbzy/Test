@@ -1,0 +1,8 @@
+
+#comp="gfortran -Wall -fcheck=all"
+comp="gfortran -Wall -O2"
+
+$comp lib_bessel.F90 lib_ppfilt.F90 fourier.F90 main.F90
+
+# $comp -Dlib_ppfilt_test lib_ppfilt.F90
+
